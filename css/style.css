@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Sour+Gummy:ital,wdth,wght@0,100..125,100..900;1,100..125,100..900&display=swap');
+
+html{
+    background-color: #050d0f;
+}
+
+body{
+    color: #050d0f;
+}
+
+h1,strong{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    color: black;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: "Sour Gummy", sans-serif;
+    color: black;
+}
+
+p{
+    font-size: 16px;
+}
+
+body{
+    color: #050d0f;
+}
+header{
+    background-image: url(../img/header.png);
+    background-size: cover;
+}
+
+a img{
+    width: 60px;
+    height: 5%;
+}
+
+div.navbarNav{
+    justify-content: space-between;
+}
+
+
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+    left: 340px;
+  }
+  
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  
+  .slider {
+    --background: #28096b;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background);
+    transition: .5s;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 50%;
+    left: 10%;
+    bottom: 15%;
+    box-shadow: inset 8px -4px 0px 0px #fff000;
+    background: var(--background);
+    transition: .5s;
+  }
+  
+  input:checked + .slider {
+    background-color: #522ba7;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(100%);
+    box-shadow: inset 15px -4px 0px 15px #fff000;
+  }
+
+#circulo{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/walo.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 110px;
+}
+
+
+div.col-lg-12 h2{
+    padding-bottom: 15px;
+    color: black;
+    font-size: 40px;
+}
+
+div.col-lg-12 h1{
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+
+div.col-lg-12 p{
+    padding-bottom: 160px;
+    font-size: 30px;
+}
+
+a.nav-link{
+    color: white;
+}
+
+
+/* Css main */
+
+main{
+    background-color:#050d0f;
+}
+
+main h2, strong, span{
+    color: white;
+    padding: 0 !important;
+}
+
+.cont-fotoPerfil{
+    padding-left: 90px;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+
+div.cont-fotoPerfil img{
+    width: 250px;
+}
+
+section#AcercaDeMi{
+    padding-bottom: 70px;
+    padding-top: 120px;
+}
+
+.cont-Acerca span{
+    color: #007acc;
+    font-weight: 500;
+    padding-top: 25px;
+    font-size: 35px;    
+}
+
+main h2, strong, span {
+    color: white;
+    padding-bottom: 20px;
+}
+/* Info box */
+
+.info-box{
+    list-style: none;
+    color: white;
+    border: 2px solid aqua;
+    padding: 12px;
+}
+
+.info-box li{
+    list-style: none;
+    margin: 5px;
+}
+
+.redes {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+}
+.redes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #0d1117;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.redes a:hover {
+    background-color: #007acc;
+    border-color: #007acc;
+    color: white;
+}
+
+.redes {
+    justify-content: center;
+    gap: 20px;
+    padding-top: 15px;
+    padding-bottom: 70px;
+    padding-left: 26px;
+}
+
+.class.row{
+    padding-bottom: 36px;
+}
+
+article.col-lg-4 p{
+    color: white;
+}
+
+article.col-lg-4{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+
+article.col-lg-4 h2 img{
+    width: 100px;
+}
+
+article.col-lg-12 h2 img{
+    width: 100px;
+}
+
+article.col-lg-4 {
+    background: #292c36;
+    border-radius: 20px;
+    position: relative;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: left;
+    transition: .4s;
+    max-width: 280px;
+    margin: 10px 80px;
+    margin-bottom: 10px;
+}
+
+#Habilidades{
+    margin-top: 38px;
+    margin-bottom: 60px;
+}
+
+section#hero{
+    padding-bottom: 22px;
+}
+
+div.container{
+    margin-top: 10px;
+}
+
+h2#Habilidades{
+    text-align: start;
+    border-bottom: solid #4C3BCF 7px;
+    padding: 15px;
+    width: 300px;
+    margin-left: 39px;
+    padding-bottom: 30px;
+}
+
+section#Habilidades{
+    padding-top: 5px;
+}
+
+div#servicios.container div.row{
+    padding-top: 50px;    
+}
+
+div.row h2#servicios{
+    margin-bottom: 30px;
+    text-align: start;
+    border-bottom: solid #4C3BCF 7px;        padding: 15px;
+    width: 220px;
+    margin-left: 39px;
+    padding-bottom: 30px;
+}
+
+div#estudios.container{
+    padding-top: 200px;
+    padding-bottom: 400px;
+}
+
+/* footer */
+footer{
+    background-color: gray;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
